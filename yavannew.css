@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+    background-color: white;
+    padding: 40px;
+    width: 80%;
+    max-width: 800px;
+    background: rgba(247, 245, 252, 1);
+
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    position: absolute;
+    top: 108px;
+    left: 0;
+    right: 320px;
+}
+
+.slider div {
+    width: 100px;
+    height: 50px;
+    background-color: #ede4ff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #6248f2;
+    margin: 0 10px;
+}
+
+.slider .active {
+    background-color: #6248f2;
+    color: white;
+}
+
+.pricing {
+    border: 2px solid #503894;
+    border-radius: 30px;
+    color: #503894;
+    font-size: 20px;
+    width: 38%;
+    margin: 0 auto;
+    box-shadow: 0px 5px 1px 0px #3E2678;
+    background-color: #ffffff;
+}
+
+.price-1 p {
+    margin: 1rem;
+}
+
+.pricing .price {
+    font-size: 36px;
+    color: #503894;
+}
+
+.button {
+    font-weight: 700;
+    background-color: #ff00b7;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-top: 41px;
+    font-size: 19px;
+    color: #6C6A72;
+    font-weight: 700;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer li {
+    margin: 5px 0;
+}
+
+.progress-container {
+    position: relative;
+    width: 80%;
+    max-width: 800px;
+    left:10;
+    margin:0 auto;
+}
+
+.progress-bar {
+    position: relative;
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.progress {
+    height: 100%;
+    background-color: #7d4cdb;
+    border-radius: 15px 0 0 15px;
+}
+
+.progress-label {
+    position: absolute;
+    top: -30px;
+    left: 10%;
+    background-color: #7d4cdb;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.progress-scale {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #7d4cdb;
+
+}
+
+.progress-scale span {
+    flex: 1;
+    text-align: center;
+}
+
+.progress-scale span:first-child {
+    text-align: left;
+}
+
+.progress-scale span:last-child {
+    text-align: right;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.logo-container img {
+    max-width: 100px;
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.included-section {
+    text-align: left;
+}
+
+.included-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.included-list li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f4f0ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.included-list .plus {
+    color: #7d4cdb;
+    font-size: 24px;
+}
+
+.custom-request-section {
+    background: rgba(80, 56, 148, 1);
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.custom-request-section p {
+    margin: 0 0 10px;
+}
+
+.talk-button {
+    font-weight: 700;
+    background-color: #ff00b7;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 30px;
+    font-size: 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.faq-container {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.faq-question {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.faq-answer {
+    display: none;
+    padding-left: 20px;
+    color: #666;
+}
+
+h1 {
+    color: rgba(80, 56, 148, 1);
+
+}
